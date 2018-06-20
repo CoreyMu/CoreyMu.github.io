@@ -1,0 +1,12 @@
+
+.text{
+  text-align: center;
+}
+
+header{
+background-color: lightgrey;
+}
+body{
+  flex-direction: row;
+  background-color: lightblue;
+}
