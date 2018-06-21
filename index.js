@@ -4,6 +4,12 @@ setupClick("step-up","welcomescreen");
 
 setupClick("play","pickscreen");
 
+setupClick("settings","settingscreen");
+
+setupClick("contorl","contorlscreen");
+
+setupClick("keyborad","keyboradscreen");
+
 $(window).on('hashchange', function(){
         render(decodeURI(window.location.hash));
     });
