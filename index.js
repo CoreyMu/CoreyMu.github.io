@@ -8,6 +8,26 @@ setupClick("settings","settingscreen");
 
 setupClick("contorl","contorlscreen");
 
+setupClick("next","contorlscreen1");
+
+setupClick("next1","contorlscreen2");
+
+setupClick("next2","contorlscreen3");
+
+setupClick("knext","contorlscreen1");
+
+setupClick("knext1","contorlscreen2");
+
+setupClick("knext2","contorlscreen3");
+
+setupClick("go","songscreen");
+
+setupClick("skip","songscreen");
+
+setupClick("kgo","songscreen");
+
+setupClick("kskip","songscreen");
+
 setupClick("keyborad","keyboradscreen");
 
 $(window).on('hashchange', function(){
