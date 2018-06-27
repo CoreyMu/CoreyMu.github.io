@@ -10,3 +10,9 @@ body{
   flex-direction: row;
   background-color: lightblue;
 }
+#picture{
+background-color: white;
+}
+#pictureoption{
+  background-color: white;
+}

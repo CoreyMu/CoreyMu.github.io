@@ -1,178 +1,277 @@
 <!DOCTYPE html>
 <html >
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/p5.js"></script>
-    <link rel="stylesheet" href="index.css">
-    <title>Step Up!</title>
-  </head>
-  <body>
-    <header>
-      <div class="text">
+   <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/p5.js"></script>
+      <link rel="stylesheet" href="index.css">
+      <title>Step Up!</title>
+   </head>
+   <body>
+      <header>
+         <div class="text">
             <h1 id="step-up">Step Up!</h1>
-      </div>
-    </header>
-    <main>
-      <div id="welcomescreen">
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <div class="container-fluid">
-           <div class="row">
-             <div class="col-lg-3">
-             </div>
-             <div class="col-lg-4">
-               <div id="play"><button style="height:205px;width:205px" type="click" value= "click" >Play</button></div>
-             </div>
-             <div class="col-lg-4">
-               <div id="settings"><button style="height:205px;width:205px" type="click" value= "click" >Setting</button></div>
-             </div>
+         </div>
+      </header>
+      <main>
+         <div id="welcomescreen">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="container-fluid">
+               <div class="row">
+                  <div class="col-lg-3">
+                  </div>
+                  <div class="col-lg-4">
+                     <div id="play"><button style="height:205px;width:205px" type="click" value= "click" >Play</button></div>
+                  </div>
+                  <div class="col-lg-4">
+                     <div id="settings"><button style="height:205px;width:205px" type="click" value= "click" >Setting</button></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div id="pickscreen" style="display:none">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="container-fluid">
+               <div class="row">
+                  <div class="col-lg-3">
+                  </div>
+                  <div class="col-lg-4">
+                     <div id="contorl"><button style="height:205px;width:205px" type="click" value= "click" >Contorl</button></div>
+                  </div>
+                  <div class="col-lg-4">
+                     <div id="keyborad"><button style="height:205px;width:205px" type="click" value= "click" >Keyborad</button></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div id="contorlscreen" style="display:none">
+            <div class="container-fluid">
+               <div class="row">
+                  <div class="col-lg-10">
+                     <p>the rules goes here</p>
+                  </div>
+                  <div class="col-lg-2">
+                     <div id="next"><button style="height:505px;width:205px" type="click" value= "click" >Next</button></div>
+                     <div id="skip"><button style="height:205px;width:205px" type="click" value= "click" >skip</button></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div id="contorlscreen1" style="display:none">
+            <div class="container-fluid">
+               <div class="row">
+                  <div class="col-lg-10">
+                     <p>the rules goes here-1</p>
+                  </div>
+                  <div class="col-lg-2">
+                     <div id="next1"><button style="height:505px;width:205px" type="click" value= "click" >Next</button></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div id="contorlscreen2" style="display:none">
+            <div class="container-fluid">
+               <div class="row">
+                  <div class="col-lg-10">
+                     <p>the rules goes here-2</p>
+                  </div>
+                  <div class="col-lg-2">
+                     <div id="next2"><button style="height:505px;width:205px" type="click" value= "click" >Next</button></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div id="contorlscreen3" style="display:none">
+            <div class="container-fluid">
+               <div class="row">
+                  <div class="col-lg-10">
+                     <p>the rules goes here-3</p>
+                  </div>
+                  <div class="col-lg-2">
+                     <div id="go"><button style="height:505px;width:205px" type="click" value= "click" >Go</button></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div id="settingscreen" style="display:none">
+           <br>
+           <br>
+           <br>
+           <br>
+           <br>
+           <br>
+           <br>
+           <br>
+           <br>
+           <div class="container-fluid">
+              <div class="row">
+                <div class="col-lg-2"></div>
+                 <div class="col-lg-3">
+                   <div id="Howtousethewebsite"><button style="height:205px;width:205px" type="click" value= "click">How to use the website</button></div>
+                 </div>
+                 <div class="col-lg-3">
+                    <div id="Howtousethecontorl"><button style="height:205px;width:205px" type="click" value= "click">How to use the contorl</button></div>
+                 </div>
+                 <div class="col-lg-3">
+                    <div id="Howtousethekeyborad"><button style="height:205px;width:205px" type="click" value= "click" >How to use the keyborad</button></div>
+                 </div>
+              </div>
            </div>
-        </div>
-      </div>
-      <div id="pickscreen" style="display:none">
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <div class="container-fluid">
-         <div class="row">
-           <div class="col-lg-3">
-           </div>
-           <div class="col-lg-4">
-             <div id="contorl"><button style="height:205px;width:205px" type="click" value= "click" >Contorl</button></div>
-           </div>
-           <div class="col-lg-4">
-             <div id="keyborad"><button style="height:205px;width:205px" type="click" value= "click" >Keyborad</button></div>
            </div>
          </div>
-        </div>
-      </div>
-      <div id="contorlscreen" style="display:none">
-        <div class="container-fluid">
-         <div class="row">
-           <div class="col-lg-10">
-             <p>the rules goes here</p>
-           </div>
-           <div class="col-lg-2">
-             <div id="next"><button style="height:505px;width:205px" type="click" value= "click" >Next</button></div>
-              <div id="skip"><button style="height:205px;width:205px" type="click" value= "click" >skip</button></div>
-           </div>
+         <div id="keyboradscreen" style="display:none">
+            <div class="container-fluid">
+               <div class="row">
+                  <div class="col-lg-10">
+                     <p>the rules goes here</p>
+                  </div>
+                  <div class="col-lg-2">
+                     <div id="knext"><button style="height:505px;width:205px" type="click" value= "click" >Next</button></div>
+                     <div id="kskip"><button style="height:205px;width:205px" type="click" value= "click" >skip</button></div>
+                  </div>
+               </div>
+            </div>
          </div>
-        </div>
-      </div>
-      <div id="contorlscreen1" style="display:none">
-        <div class="container-fluid">
-         <div class="row">
-           <div class="col-lg-10">
-             <p>the rules goes here-1</p>
-           </div>
-           <div class="col-lg-2">
-             <div id="next1"><button style="height:505px;width:205px" type="click" value= "click" >Next</button></div>
-           </div>
+         <div id="keyboradscreen1" style="display:none">
+            <div class="container-fluid">
+               <div class="row">
+                  <div class="col-lg-10">
+                     <p>the rules goes here-1</p>
+                  </div>
+                  <div class="col-lg-2">
+                     <div id="knext1"><button style="height:505px;width:205px" type="click" value= "click" >Next</button></div>
+                  </div>
+               </div>
+            </div>
          </div>
-        </div>
-      </div>
-      <div id="contorlscreen2" style="display:none">
-        <div class="container-fluid">
-         <div class="row">
-           <div class="col-lg-10">
-             <p>the rules goes here-2</p>
-           </div>
-           <div class="col-lg-2">
-             <div id="next2"><button style="height:505px;width:205px" type="click" value= "click" >Next</button></div>
-           </div>
+         <div id="keyboradscreen2" style="display:none">
+            <div class="container-fluid">
+               <div class="row">
+                  <div class="col-lg-10">
+                     <p>the rules goes here-2</p>
+                  </div>
+                  <div class="col-lg-2">
+                     <div id="knext2"><button style="height:505px;width:205px" type="click" value= "click" >Next</button></div>
+                  </div>
+               </div>
+            </div>
          </div>
-        </div>
-      </div>
-      <div id="contorlscreen3" style="display:none">
-        <div class="container-fluid">
-         <div class="row">
-           <div class="col-lg-10">
-             <p>the rules goes here-3</p>
-           </div>
-           <div class="col-lg-2">
-             <div id="go"><button style="height:505px;width:205px" type="click" value= "click" >Go</button></div>
-           </div>
+         <div id="keyboradscreen3" style="display:none">
+            <div class="container-fluid">
+               <div class="row">
+                  <div class="col-lg-10">
+                     <p>the rules goes here-3</p>
+                  </div>
+                  <div class="col-lg-2">
+                     <div id="kgo"><button style="height:505px;width:205px" type="click" value= "click" >Go</button></div>
+                  </div>
+               </div>
+            </div>
          </div>
-        </div>
-      </div>
-      <div id="settingscreen" style="display:none">
-             <p>setting</p>
-          </div>
-      <div id="keyboradscreen" style="display:none">
-        <div class="container-fluid">
-         <div class="row">
-           <div class="col-lg-10">
-             <p>the rules goes here</p>
-           </div>
-           <div class="col-lg-2">
-             <div id="knext"><button style="height:505px;width:205px" type="click" value= "click" >Next</button></div>
-              <div id="kskip"><button style="height:205px;width:205px" type="click" value= "click" >skip</button></div>
-           </div>
+         <div id="songscreen" style="display:none">
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="container-fluid">
+               <div class="row">
+                  <div class="col-lg-5"></div>
+                  <div class="col-lg-2">
+                     <div id="picture">the picture of the songs(after the option is pick)</div>
+                  </div>
+                  <div class="col-lg-2"></div>
+               </div>
+               <br>
+               <br>
+               <br>
+               <br>
+               <br>
+               <br>
+               <br>
+               <br>
+               <br>
+               <br>
+               <br>
+               <br>
+               <div id="pictureoption"class="row">
+                 <p>picture option</p>
+               </div>
+            </div>
          </div>
-        </div>
-      </div>
-      <div id="keyboradscreen1" style="display:none">
-        <div class="container-fluid">
-         <div class="row">
-           <div class="col-lg-10">
-             <p>the rules goes here-1</p>
-           </div>
-           <div class="col-lg-2">
-             <div id="knext1"><button style="height:505px;width:205px" type="click" value= "click" >Next</button></div>
-           </div>
+         <div id="screenscreen" style="display:none">
+            <div class="container-fluid">
+               <div class="row">
+                  <div class="col-lg-10">
+                     <p>the rules goes here</p>
+                  </div>
+                  <div class="col-lg-2">
+                     <div id="knext"><button style="height:505px;width:205px" type="click" value= "click" >Next</button></div>
+                     <div id="wskip"><button style="height:205px;width:205px" type="click" value= "click" >skip</button></div>
+                  </div>
+               </div>
+            </div>
          </div>
-        </div>
-      </div>
-      <div id="keyboradscreen2" style="display:none">
-        <div class="container-fluid">
-         <div class="row">
-           <div class="col-lg-10">
-             <p>the rules goes here-2</p>
-           </div>
-           <div class="col-lg-2">
-             <div id="knext2"><button style="height:505px;width:205px" type="click" value= "click" >Next</button></div>
-           </div>
+         <div id="screenscreen1" style="display:none">
+            <div class="container-fluid">
+               <div class="row">
+                  <div class="col-lg-10">
+                     <p>the rules goes here-1</p>
+                  </div>
+                  <div class="col-lg-2">
+                     <div id="wnext1"><button style="height:505px;width:205px" type="click" value= "click" >Next</button></div>
+                  </div>
+               </div>
+            </div>
          </div>
-        </div>
-      </div>
-      <div id="keyboradscreen3" style="display:none">
-        <div class="container-fluid">
-         <div class="row">
-           <div class="col-lg-10">
-             <p>the rules goes here-3</p>
-           </div>
-           <div class="col-lg-2">
-             <div id="kgo"><button style="height:505px;width:205px" type="click" value= "click" >Go</button></div>
-           </div>
+         <div id="screenscreen2" style="display:none">
+            <div class="container-fluid">
+               <div class="row">
+                  <div class="col-lg-10">
+                     <p>the rules goes here-2</p>
+                  </div>
+                  <div class="col-lg-2">
+                     <div id="wnext2"><button style="height:505px;width:205px" type="click" value= "click" >Next</button></div>
+                  </div>
+               </div>
+            </div>
          </div>
-        </div>
-      </div>
-      <div id="songscreen" style="display:none">
-             <p>songs</p>
-      </div>
-    </main>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
-    <script src="index.js"></script>
-  </body>
+         <div id="keyboradscreen3" style="display:none">
+            <div class="container-fluid">
+               <div class="row">
+                  <div class="col-lg-10">
+                     <p>the rules goes here-3</p>
+                  </div>
+                  <div class="col-lg-2">
+                     <div id="wgo"><button style="height:505px;width:205px" type="click" value= "click" >Go</button></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </main>
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+      <script src="index.js"></script>
+   </body>
 </html>
