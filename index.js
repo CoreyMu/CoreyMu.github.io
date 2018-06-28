@@ -1,5 +1,18 @@
 var screens = new Map();
 
+loadData();
+
+function loadData() {
+  fetch("database.json")
+  .then(function(response) {
+    response.json()
+    .then(function(jsonObj) {
+      database = jsonObj;
+      console.log("Database Loaded Successfully");
+    }).then(setup)
+  });
+}
+
 setupClick("step-up","welcomescreen");
 
 setupClick("play","pickscreen");
@@ -50,7 +63,6 @@ $(window).on('hashchange', function(){
         render(decodeURI(window.location.hash));
     });
 function render(url) {
-
   console.log(url)
   function logMapElements(value, key, map) {
     console.log(value);
