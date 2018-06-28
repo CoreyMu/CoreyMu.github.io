@@ -40,7 +40,11 @@ setupClick("Howtousethecontorl","contorlscreen");
 
 setupClick("Howtousethekeyborad","keyboradscreen");
 
-setupClick("","");
+setupClick("wnext","screenscreen1");
+
+setupClick("wnext1","screenscreen2");
+
+setupClick("wnext2","screenscreen3");
 
 $(window).on('hashchange', function(){
         render(decodeURI(window.location.hash));
