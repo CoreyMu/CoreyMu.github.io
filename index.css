@@ -16,3 +16,26 @@ background-color: white;
 #pictureoption{
   background-color: white;
 }
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* temporary styles for scripting purposes! */
+.song-div {
+  float: left;
+  margin: 0 10px;
+}
+
+.song-input, #now-playing-img {
+  width: 128px;
+  height: 128px;
+  border: 1px solid black;
+}
+
+#playback-screen {
+  clear: both;
+}

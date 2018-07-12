@@ -1,44 +1,128 @@
-{
-	"Zelda - Song of Storms (Deon Custom Remix)": {
-		"The name of the song ": "Zelda - Song of Storms (Deon Custom Remix)",
-		"the link to the song": "https://raw.githubusercontent.com/CoreyMu/CoreyMu.github.io/master/assets/music/Zelda%20-%20Song%20of%20Storms%20(Deon%20Custom%20Remix).mp3",
-		"the link/pic of the song ": "https://raw.githubusercontent.com/CoreyMu/CoreyMu.github.io/master/assets/img/Zelda%20-%20Song%20of%20Storms%20(Deon%20Custom%20Remix).jpg",
-		"the arthor name ": "Trap Nation"
-	},
-	"TheFatRat - Monody (feat. Laura Brehm)": {
-		"The name of the song ": "TheFatRat - Monody (feat. Laura Brehm)",
-		"the link to the song": "https://rawgit.com/CoreyMu/CoreyMu.github.io/master/assets/music/TheFatRat%20-%20Monody%20(feat.%20Laura%20Brehm).mp3",
-		"the link/pic of the song ": "https://raw.githubusercontent.com/CoreyMu/CoreyMu.github.io/master/assets/img/TheFatRat%20-%20Monody%20(feat.%20Laura%20Brehm).jpg",
-		"the arthor name ": "TheFatRat"
-	},
-	"The White Stripes - 'Seven Nation Army'": {
-		"The name of the song ": "The White Stripes - 'Seven Nation Army'",
-		"the link to the song": "https://rawgit.com/CoreyMu/CoreyMu.github.io/master/assets/music/The%20White%20Stripes%20-%20Seven%20Nation%20Army.mp3",
-		"the link/pic of the song ": "https://raw.githubusercontent.com/CoreyMu/CoreyMu.github.io/master/assets/img/The%20White%20Stripes%20-%20'Seven%20Nation%20Army'.jpg",
-		"the arthor name ": "XL Recordings"
-	},
-	"Alessia Cara - Here": {
-		"The name of the song ": "Alessia Cara - Here",
-		"the link to the song": "https://raw.githubusercontent.com/CoreyMu/CoreyMu.github.io/master/assets/music/Alessia%20Cara%20-%20Here.mp3",
-		"the link/pic of the song ": "https://raw.githubusercontent.com/CoreyMu/CoreyMu.github.io/master/assets/img/Alessia%20Cara%20-%20Here.jpg",
-		"the arthor name ": "Alessia Cara"
-	},
-	"Megumin - Konosuba ED (Miraie Remix)": {
-		"The name of the song ": "Megumin - Konosuba ED (Miraie Remix)",
-		"the link to the song": "https://raw.githubusercontent.com/CoreyMu/CoreyMu.github.io/master/assets/music/Megumin%20-%20Konosuba%20ED%20(Miraie%20Remix).mp3",
-		"the link/pic of the song ": "https://raw.githubusercontent.com/CoreyMu/CoreyMu.github.io/master/assets/img/Megumin%20-%20Konosuba%20ED%20(Miraie%20Remix).jpg",
-		"the arthor name ": "Miraie"
-	},
-	"Daft Punk - Harder, Better, Faster, Stronger": {
-		"The name of the song ": "Daft Punk - Harder, Better, Faster, Stronger",
-		"the link to the song": "https://rawgit.com/CoreyMu/CoreyMu.github.io/master/assets/music/Daft%20Punk%20-%20Harder%20Better%20Faster%20Stronger.mp3",
-		"the link/pic of the song ": "https://raw.githubusercontent.com/CoreyMu/CoreyMu.github.io/master/assets/img/Daft%20Punk%20-%20Harder%2C%20Better%2C%20Faster%2C%20Stronger.jpg",
-		"the arthor name ": "Costa Ntino"
-	},
-	"Imagine Dragons - Believer": {
-		"The name of the song ": "Imagine Dragons - Believer",
-		"the link to the song": "https://raw.githubusercontent.com/CoreyMu/CoreyMu.github.io/master/assets/music/Imagine%20Dragons%20-%20Believer.mp3",
-		"the link/pic of the song ": "https://raw.githubusercontent.com/CoreyMu/CoreyMu.github.io/master/assets/img/Imagine%20Dragons%20-%20Believer.jpg",
-		"the arthor name ": "AmikoM"
-	}
-}
+[
+  {
+    "title": "Zelda - Song of Storms (Deon Custom Remix)",
+    "musicLocation": "https://raw.githubusercontent.com/CoreyMu/CoreyMu.github.io/master/assets/music/Zelda%20-%20Song%20of%20Storms%20(Deon%20Custom%20Remix).mp3",
+    "imgLocation": "https://raw.githubusercontent.com/CoreyMu/CoreyMu.github.io/master/assets/img/Zelda%20-%20Song%20of%20Storms%20(Deon%20Custom%20Remix).jpg",
+    "artist": "\nTrap Nation"
+  },
+  {
+    "title": "TheFatRat - Monody (feat. Laura Brehm)",
+    "musicLocation": "https://rawgit.com/CoreyMu/CoreyMu.github.io/master/assets/music/TheFatRat%20-%20Monody%20(feat.%20Laura%20Brehm).mp3",
+    "imgLocation": "https://raw.githubusercontent.com/CoreyMu/CoreyMu.github.io/master/assets/img/TheFatRat%20-%20Monody%20(feat.%20Laura%20Brehm).jpg",
+    "artist": "TheFatRat"
+  },
+  {
+    "title": "The White Stripes - 'Seven Nation Army'",
+    "musicLocation": "https://rawgit.com/CoreyMu/CoreyMu.github.io/master/assets/music/The%20White%20Stripes%20-%20Seven%20Nation%20Army.mp3",
+    "imgLocation": "https://raw.githubusercontent.com/CoreyMu/CoreyMu.github.io/master/assets/img/The%20White%20Stripes%20-%20'Seven%20Nation%20Army'.jpg",
+    "artist": "XL Recordings"
+  },
+  {
+    "title": "Alessia Cara - Here",
+    "musicLocation": "https://raw.githubusercontent.com/CoreyMu/CoreyMu.github.io/master/assets/music/Alessia%20Cara%20-%20Here.mp3",
+    "imgLocation": "https://raw.githubusercontent.com/CoreyMu/CoreyMu.github.io/master/assets/img/Alessia%20Cara%20-%20Here.jpg",
+    "artist": "Alessia Cara"
+  },
+  {
+    "title": "Megumin - Konosuba ED (Miraie Remix)",
+    "musicLocation": "https://raw.githubusercontent.com/CoreyMu/CoreyMu.github.io/master/assets/music/Megumin%20-%20Konosuba%20ED%20(Miraie%20Remix).mp3",
+    "imgLocation": "https://raw.githubusercontent.com/CoreyMu/CoreyMu.github.io/master/assets/img/Megumin%20-%20Konosuba%20ED%20(Miraie%20Remix).jpg",
+    "artist": "Miraie"
+  },
+  {
+    "title": "Daft Punk - Harder, Better, Faster, Stronger",
+    "musicLocation": "https://rawgit.com/CoreyMu/CoreyMu.github.io/master/assets/music/Daft%20Punk%20-%20Harder%20Better%20Faster%20Stronger.mp3",
+    "imgLocation": "https://raw.githubusercontent.com/CoreyMu/CoreyMu.github.io/master/assets/img/Daft%20Punk%20-%20Harder%2C%20Better%2C%20Faster%2C%20Stronger.jpg",
+    "artist": "Costa Ntino"
+  },
+  {
+    "title": "Imagine Dragons - Believer",
+    "musicLocation": "https://raw.githubusercontent.com/CoreyMu/CoreyMu.github.io/master/assets/music/Imagine%20Dragons%20-%20Believer.mp3",
+    "imgLocation": "https://raw.githubusercontent.com/CoreyMu/CoreyMu.github.io/master/assets/img/Imagine%20Dragons%20-%20Believer.jpg",
+    "artist": "AmikoM"
+  },
+  {
+    "title": "Maroon 5 - Animals",
+    "musicLocation": "",
+    "imgLocation": "https://i.ytimg.com/vi/qpgTC9MDx1o/maxresdefault.jpg",
+    "artist": "Maroon 5"
+  },
+  {
+    "title": "Virtual Riot - Idols (EDM Mashup)",
+    "musicLocation": "",
+    "imgLocation": "https://i.ytimg.com/vi/nEt1bKGlCpM/maxresdefault.jpg",
+    "artist": "Proximity"
+  },
+  {
+    "title": "TheFatRat - Time Lapse",
+    "musicLocation": "",
+    "imgLocation": "https://i.ytimg.com/vi/3fxq7kqyWO8/maxresdefault.jpg",
+    "artist": "TheFatRat"
+  },
+  {
+    "title": "OMFG - Hello",
+    "musicLocation": "",
+    "imgLocation": "https://i.ytimg.com/vi/ih2xubMaZWI/maxresdefault.jpg",
+    "artist": "MrSuicideSheep"
+  },
+  {
+    "title": "Adrenaline",
+    "musicLocation": "",
+    "imgLocation": "https://i1.sndcdn.com/artworks-000179623676-0tyr8z-t500x500.jpg",
+    "artist": "Jack Wall"
+  },
+  {
+    "title": "Pixel Forest",
+    "musicLocation": "",
+    "imgLocation": "https://i1.sndcdn.com/artworks-000232130329-7s7m2v-t500x500.jpg",
+    "artist": "Virtual Riot"
+  },
+  {
+    "title": "Daft Punk Skrillex Remix - Conte",
+    "musicLocation": "",
+    "imgLocation": "https://i.ytimg.com/vi/6-93g3NW_UQ/maxresdefault.jpg",
+    "artist": "Jack Conte"
+  },
+  {
+    "title": "Rekt Together (Every Single Night)",
+    "musicLocation": "",
+    "imgLocation": "https://i1.sndcdn.com/artworks-000168802091-8n1q0e-t500x500.jpg",
+    "artist": "Doctor P"
+  },
+  {
+    "title": "Come & Get It",
+    "musicLocation": "",
+    "imgLocation": "https://edmhunters-563e.kxcdn.com/mediafiles/song/images/3097_1.jpg",
+    "artist": "Krewella"
+  },
+  {
+    "title": "Tobu - Hope (Original Mix)",
+    "musicLocation": "",
+    "imgLocation": "https://i.ytimg.com/vi/Y1Z3Q3O7IRE/maxresdefault.jpg",
+    "artist": "Tobu"
+  },
+  {
+    "title": "Tokyo Machine - ROCK IT [Monstercat Release]",
+    "musicLocation": "",
+    "imgLocation": "https://i.ytimg.com/vi/NFB6Y2Qt8ag/hqdefault.jpg",
+    "artist": "Tokyo Machine"
+  },
+  {
+    "title": "Different Heaven - Nekozilla [NCS Release]",
+    "musicLocation": "",
+    "imgLocation": "https://i.ytimg.com/vi/6FNHe3kf8_s/maxresdefault.jpg",
+    "artist": "Different Heaven"
+  },
+  {
+    "title": "TheFatRat - Xenogenesis",
+    "musicLocation": "",
+    "imgLocation": "https://is3-ssl.mzstatic.com/image/thumb/Music3/v4/b8/80/52/b8805297-0f16-300f-be06-5a82e1baf7cd/859713716124_cover.tif/1200x630bb.jpg",
+    "artist": "TheFatRat"
+  },
+  {
+    "title": "Marshmello x Ookay - Chasing Colors (ft. Noah Cyrus)",
+    "musicLocation": "",
+    "imgLocation": "https://upload.wikimedia.org/wikipedia/en/thumb/2/27/Chasing_Colors_Marshmello_Ookay_Cover.jpg/220px-Chasing_Colors_Marshmello_Ookay_Cover.jpg",
+    "artist": "Marshmello x Ookay"
+  }
+]
