@@ -2,21 +2,6 @@ console.log("index.js is loading...")
 
 var screens = new Map();
 
-loadData();
-
-function loadData() {
-  fetch("database.json")
-  .then(function(response) {
-    response.json()
-    .then(function(jsonObj) {
-      database = jsonObj;
-      console.log("Database Loaded Successfully");
-    }).then(function () {
-      hi(database)
-    })
-  });
-}
-
 setupClick("step-up", "welcomescreen");
 
 setupClick("play", "pickscreen");
