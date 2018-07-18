@@ -39,3 +39,6 @@ html {
 #playback-screen {
   clear: both;
 }
+#playButtonPlay{
+  display: none;
+}

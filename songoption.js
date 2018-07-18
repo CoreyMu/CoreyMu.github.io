@@ -35,13 +35,14 @@ console.log("songoption.js is loading...");
      .then(function(jsonObj) {
        database = jsonObj;
        console.log("Database Loaded Successfully");
-     }).then(setup)
+     }).then(setupgame)
    });
  }
 
- function setup() {
+ function setupgame() {
    printSongTitles();
    createPlaylist();
+   //play();
  }
  // How to sort your database by song title
 
@@ -91,7 +92,8 @@ console.log("songoption.js is loading...");
 
      nowPlayingAudio.play();
      updatePlayback(song);
-      playButton.innerHTML= "pause";
+     playButtonPlay.style.display = "block";
+      //playButton.innerHTML= "pause";
      //Songinput.addEventListener
    });
 
@@ -151,6 +153,11 @@ console.log("songoption.js is loading...");
        // Play nowPlayingAudio
        nowPlayingAudio.play();
  } }
+}
+function play(){
+
+
+
 }
 
 
