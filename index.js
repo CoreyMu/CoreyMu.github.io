@@ -2,7 +2,7 @@ console.log("index.js is loading...")
 
 var screens = new Map();
 
-setupClick("step-up", "welcomescreen");
+setupClick("step", "welcomescreen");
 
 setupClick("play", "pickscreen");
 
@@ -88,5 +88,6 @@ function addScreen(Screen) {
 
 }
 go("welcomescreen");
+
 
 console.log("index.js is alive")
