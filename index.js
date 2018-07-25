@@ -68,6 +68,10 @@ function render(url) {
     }
     screens.forEach(logMapElements);
     console.log(screens);
+    if (url === "#playscreenplay") {
+      startgame();
+
+    }
 }
 
 function go(hash) {
@@ -85,6 +89,11 @@ function setupClick(div, hashstring) {
 function addScreen(Screen) {
     var ScreenElement = document.getElementById(Screen);
     screens.set(Screen, ScreenElement);
+
+}
+
+
+function functionName() {
 
 }
 go("welcomescreen");
