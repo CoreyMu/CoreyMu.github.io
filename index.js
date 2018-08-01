@@ -70,7 +70,6 @@ function render(url) {
     console.log(screens);
     if (url === "#playscreenplay") {
       startgame();
-
     }
 }
 

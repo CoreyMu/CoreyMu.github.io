@@ -1,6 +1,9 @@
 console.log("dancearrow.js is loading...");
 function startgame() {
 step.style.display = "none"
+nowPlayingAudio.load();
+nowPlayingAudio.play();
+
 }
 // function preload() {
 //   noLoop();
@@ -13,8 +16,14 @@ function draw() {
   if("#playscreenplay"!=decodeURI(window.location.hash)){
     return
   }
-  ellipse(50,50,50,50);
 }
+function PS(){
+  nowPlayingAudio.load();
+  nowPlayingAudio.play();
 
+
+
+
+}
 
 console.log("dancearrow.js is alive...");
