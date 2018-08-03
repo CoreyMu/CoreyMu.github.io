@@ -1,13 +1,12 @@
 console.log("dancearrow.js is loading...");
 function startgame() {
+//document.write("<style>body { background-color:#000 }</style>");
 step.style.display = "none"
 nowPlayingAudio.load();
 nowPlayingAudio.play();
+createCanvas(windowWidth, windowHeight);
 
 }
-// function preload() {
-//   noLoop();
-// }
 function setup() {
 }
 
@@ -16,13 +15,6 @@ function draw() {
   if("#playscreenplay"!=decodeURI(window.location.hash)){
     return
   }
-}
-function PS(){
-  nowPlayingAudio.load();
-  nowPlayingAudio.play();
-
-
-
 
 }
 

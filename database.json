@@ -49,6 +49,41 @@
     "bpm": 125
   },
   {
+    "title": "Pokken Tournament OST -Magikarp Festival - Stage Music",
+    "musicLocation": "https://rawgit.com/CoreyMu/CoreyMu.github.io/master/assets/music/Pokken%20Tournament%20OST%20-%20Magikarp%20Festival%20-%20Stage%20Music.mp3",
+    "imgLocation": "https://rawgit.com/CoreyMu/CoreyMu.github.io/master/assets/img/Pokken%20Tournament%20OST%20-Magikarp%20Festival%20-%20Stage%20Music.jpg",
+    "artist": "",
+    "bpm": 97
+  },
+  {
+    "title": "Daft Puk - Around The World",
+    "musicLocation": "https://rawgit.com/CoreyMu/CoreyMu.github.io/master/assets/music/Daft%20Punk%20-%20Around%20The%20World.mp3",
+    "imgLocation": "https://rawgit.com/CoreyMu/CoreyMu.github.io/master/assets/img/Daft%20Puk%20-%20Around%20The%20World.jpg",
+    "artist": "",
+    "bpm": 121
+  },
+  {
+    "title": "Foster The People - Don't Stop (Color on the walls) (video)",
+    "musicLocation": "https://raw.githubusercontent.com/CoreyMu/CoreyMu.github.io/master/assets/music/Foster%20The%20People%20-%20Dont%20Stop%20(Color%20on%20the%20Walls).mp3",
+    "imgLocation": "https://rawgit.com/CoreyMu/CoreyMu.github.io/master/assets/img/Foster%20The%20People%20-%20Don't%20Stop%20(Color%20on%20the%20walls)%20(video).jpg",
+    "artist": "",
+    "bpm": 133
+  },
+  {
+    "title": "Cuphead - Die House [Electro Swing Remix (ft. OR30)]",
+    "musicLocation": "https://rawgit.com/CoreyMu/CoreyMu.github.io/master/assets/music/Cuphead%20-%20Die%20House%20%5BElectro%20Swing%20Remix%20(ft.%20OR30)%5D.mp3",
+    "imgLocation": "https://rawgit.com/CoreyMu/CoreyMu.github.io/master/assets/img/Cuphead%20-%20Die%20House%20%5BElectro%20Swing%20Remix%20(ft.%20OR30)%5D.jpg",
+    "artist": "",
+    "bpm": 100
+  },
+  {
+    "title": "Alexander Hamilton",
+    "musicLocation": "https://rawgit.com/CoreyMu/CoreyMu.github.io/master/assets/music/Alexander%20Hamilton.mp3",
+    "imgLocation": "https://rawgit.com/CoreyMu/CoreyMu.github.io/master/assets/img/Alexander%20Hamilton.jpg",
+    "artist": "",
+    "bpm": 106
+  },
+  {
     "title": "Maroon 5 - Animals",
     "musicLocation": "",
     "imgLocation": "https://rawgit.com/CoreyMu/CoreyMu.github.io/master/assets/img/Maroon%205%20-%20Animals.jpg",
@@ -145,40 +180,5 @@
     "imgLocation": "https://rawgit.com/CoreyMu/CoreyMu.github.io/69b28d57aabafd84487a911a8cce90c660ada136/assets/img/Marshmello%20x%20Ookay%20-%20Chasing%20Colors%20(ft.%20Noah%20Cyrus).jpg",
     "artist": "Marshmello x Ookay",
     "bpm": ""
-  },
-  {
-    "title": "Pokken Tournament OST -Magikarp Festival - Stage Music",
-    "musicLocation": "https://rawgit.com/CoreyMu/CoreyMu.github.io/master/assets/music/Pokken%20Tournament%20OST%20-%20Magikarp%20Festival%20-%20Stage%20Music.mp3",
-    "imgLocation": "https://rawgit.com/CoreyMu/CoreyMu.github.io/master/assets/img/Pokken%20Tournament%20OST%20-Magikarp%20Festival%20-%20Stage%20Music.jpg",
-    "artist": "",
-    "bpm": 97
-  },
-  {
-    "title": "Daft Puk - Around The World",
-    "musicLocation": "https://rawgit.com/CoreyMu/CoreyMu.github.io/master/assets/music/Daft%20Punk%20-%20Around%20The%20World.mp3",
-    "imgLocation": "https://rawgit.com/CoreyMu/CoreyMu.github.io/master/assets/img/Daft%20Puk%20-%20Around%20The%20World.jpg",
-    "artist": "",
-    "bpm": 121
-  },
-  {
-    "title": "Foster The People - Don't Stop (Color on the walls) (video)",
-    "musicLocation": "https://raw.githubusercontent.com/CoreyMu/CoreyMu.github.io/master/assets/music/Foster%20The%20People%20-%20Dont%20Stop%20(Color%20on%20the%20Walls).mp3",
-    "imgLocation": "https://rawgit.com/CoreyMu/CoreyMu.github.io/master/assets/img/Foster%20The%20People%20-%20Don't%20Stop%20(Color%20on%20the%20walls)%20(video).jpg",
-    "artist": "",
-    "bpm": 133
-  },
-  {
-    "title": "Cuphead - Die House [Electro Swing Remix (ft. OR30)]",
-    "musicLocation": "https://rawgit.com/CoreyMu/CoreyMu.github.io/master/assets/music/Cuphead%20-%20Die%20House%20%5BElectro%20Swing%20Remix%20(ft.%20OR30)%5D.mp3",
-    "imgLocation": "https://rawgit.com/CoreyMu/CoreyMu.github.io/master/assets/img/Cuphead%20-%20Die%20House%20%5BElectro%20Swing%20Remix%20(ft.%20OR30)%5D.jpg",
-    "artist": "",
-    "bpm": 100
-  },
-  {
-    "title": "Alexander Hamilton",
-    "musicLocation": "https://rawgit.com/CoreyMu/CoreyMu.github.io/master/assets/music/Alexander%20Hamilton.mp3",
-    "imgLocation": "https://rawgit.com/CoreyMu/CoreyMu.github.io/master/assets/img/Alexander%20Hamilton.jpg",
-    "artist": "",
-    "bpm": 106
   }
 ]
