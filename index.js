@@ -48,8 +48,11 @@ setupClick("wnext1", "screenscreen2");
 
 setupClick("wnext2", "screenscreen3");
 
-setupClick("playButtonPlay", "playscreenplay");
+setupClick("playButtonPlayeasy", "playscreenplay");
 
+setupClick("playButtonPlaymiddle", "playscreenplay");
+
+setupClick("playButtonPlayhard", "playscreenplay");
 
 $(window).on('hashchange', function() {
     render(decodeURI(window.location.hash));

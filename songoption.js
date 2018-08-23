@@ -91,7 +91,9 @@ function createSongDiv(song) {
 
         nowPlayingAudio.play();
         updatePlayback(song);
-        playButtonPlay.style.display = "block";
+        playButtonPlayeasy.style.display = "block";
+        playButtonPlaymiddle.style.display = "block";
+        playButtonPlayhard.style.display = "block";
         //playButton.innerHTML= "pause";
         //Songinput.addEventListener
         findbpm(song);

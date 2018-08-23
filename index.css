@@ -41,6 +41,14 @@ html {
 #playback-screen {
   clear: both;
 }
-#playButtonPlay{
+#playButtonPlayeasy{
+  display: none;
+}
+
+#playButtonPlaymiddle{
+  display: none;
+}
+
+#playButtonPlayhard{
   display: none;
 }
