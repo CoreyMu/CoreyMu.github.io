@@ -3,9 +3,7 @@ var right = 600;
 var left = 600;
 var up = 600;
 var down = 600;
-var speed = sendarray;
 var nextbeat;
-var a = nowPlayingAudio;
 var allbeats;
 var fbe = 7;
 var fbm = 3;
@@ -14,13 +12,11 @@ var sendarray = [];
 var easyarray = [];
 var middlearray = [];
 var hardarray = []
-
 function startgame() {
     step.style.display = "none"
     nowPlayingAudio.load();
     nowPlayingAudio.play();
-    createCanvas(windowWidth, windowHeight);;
-
+    createCanvas(windowWidth, windowHeight);
 }
 
 function setup() {}
@@ -47,8 +43,6 @@ function goal() {
 }
 
 function arrows() {
-    console.log("here");
-    movement();
     fill(0);
     rect(200, right, 50, 50);
 
@@ -60,30 +54,6 @@ function arrows() {
 
     fill(150);
     rect(1200, down, 50, 50);
-}
-
-function movement() {
-
-    up += speed;
-    if (up < 0) {
-        up = 700;
-        console.console.log("up is moving");
-    }
-    down += speed;
-    if (down < 0) {
-        down = 700;
-        console.console.log("down is moving");
-    }
-    right += speed;
-    if (right < 0) {
-        right = 700;
-        console.console.log("right is moving");
-    }
-    left += speed;
-    if (left < 0) {
-        left = 700;
-        console.console.log("left is moving");
-    }
 }
 
 function findbpm(song) {
@@ -103,46 +73,35 @@ function timeout() {
     console.log(hardarray)
     findbeateasy()
     findbeatmiddle()
-    findbeathard()
+    findbeathard();
 }
 
 function findbeateasy() {
-    console.log("find beat easy is up and running");
     easyarray.push(sendarray[fbe]);
-    console.log("I push to easy array like you ask");
-    console.log("starting if else statment");
     if (fbe < sendarray.length) {
-        fbe = fbe + 7
+        fbe = fbe + 8
     } else if (fbe >= sendarray.length) {
-        console.log("now i will stop")
+
     }
-    console.log("finsh if else statment");
+
 }
 
 function findbeatmiddle() {
-    console.log("find beat middle is up and running");
     middlearray.push(sendarray[fbm]);
-    console.log("I push to middle array like you ask");
-    console.log("starting if else statment");
     if (fbm < sendarray.length) {
-        fbm = fbm + 3
+        fbm = fbm + 4
     } else if (fbm >= sendarray.length) {
-        console.log("now i will stop")
+
     }
-    console.log("finsh if else statment");
 }
 
 function findbeathard() {
-    console.log("find beat hard is up and running");
     hardarray.push(sendarray[fbh]);
-    console.log("I push to hard array like you ask");
-    console.log("starting if else statment");
     if (fbh < sendarray.length) {
         fbh = fbh + 2
     } else if (fbh >= sendarray.length) {
-        console.log("now i will stop")
+
     }
-    console.log("finsh if else statment");
 }
 
 
