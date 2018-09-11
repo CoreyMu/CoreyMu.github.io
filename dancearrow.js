@@ -12,6 +12,7 @@ var sendarray = [];
 var easyarray = [];
 var middlearray = [];
 var hardarray = []
+var msa
 function startgame() {
     step.style.display = "none"
     nowPlayingAudio.load();
@@ -74,6 +75,7 @@ function timeout() {
     findbeateasy()
     findbeatmiddle()
     findbeathard();
+    MakeSendArrow()
 }
 
 function findbeateasy() {
@@ -102,6 +104,19 @@ function findbeathard() {
     } else if (fbh >= sendarray.length) {
 
     }
+}
+
+function MakeSendArrow(){
+  console.log("MSA is loding")
+if(easyarray[msa]=undefined){
+ //makearrow();
+  msa ++
+  console.log(msa)
+  console.log("first if working")
+} else if (easyarray[msa]==sendarray[fbe]){
+ //movearrow();
+ console.log("last if working")
+}
 }
 
 
