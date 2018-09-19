@@ -1,23 +1,29 @@
 console.log("dancearrow.js is loading...");
-var right = 600;
-var left = 600;
-var up = 600;
-var down = 600;
+var right;
+var left;
+var up;
+var down;
+var saia
 var nextbeat;
 var allbeats;
-var fbe = 7;
-var fbm = 3;
-var fbh = 1;
+var nbe=8
+var fb = 7;
 var sendarray = [];
+var levelsarray = [];
 var easyarray = [];
 var middlearray = [];
 var hardarray = []
 var msa
+var x=0;
+var speed;
+var da=false;
+var sa=true;
 function startgame() {
     step.style.display = "none"
     nowPlayingAudio.load();
     nowPlayingAudio.play();
     createCanvas(windowWidth, windowHeight);
+    findbpm(song)
 }
 
 function setup() {}
@@ -29,8 +35,14 @@ function draw() {
     }
     background(255);
     goal();
-    arrows();
     lifebar();
+    if (da){
+    arrows();
+}
+ if(sa){
+   movement();
+ }
+
 }
 
 function lifebar() {
@@ -55,13 +67,16 @@ function arrows() {
 
     fill(150);
     rect(1200, down, 50, 50);
+
 }
 
 function findbpm(song) {
-    allbeats = song.bpm
-    for (var x in allbeats) {
-        setTimeout(timeout, allbeats[x] * 1000);
-    }
+  allbeats = song.bpm
+   for (var x in allbeats) {
+       setTimeout(timeout, allbeats[x] * 1000);
+   }
+   speed=60/song.temp*-60
+   console.log(speed);
 }
 
 function timeout() {
@@ -69,56 +84,68 @@ function timeout() {
     console.log(nowPlayingAudio.currentTime)
     sendarray.push(nowPlayingAudio.currentTime)
     console.log(sendarray)
-    console.log(easyarray)
-    console.log(middlearray)
-    console.log(hardarray)
-    findbeateasy()
-    findbeatmiddle()
-    findbeathard();
-    MakeSendArrow()
+    levels(x)
+    console.log(levelsarray)
+    x++
+
+}
+function levels(x){
+  console.log(x)
+  levelsarray.push(sendarray[fb]);
+  if (fb < sendarray.length) {
+      fb = fb + nbe
+  } if (levelsarray[x]==undefined){
+da=true
+sa=false
+right = 600;
+left = 600;
+up = 600;
+down = 600;
+console.log("hi")
+} else if(levelsarray[x]!=undefined){
+da=true
+sa=true
+
+console.log("today")
+}
 }
 
 function findbeateasy() {
-    easyarray.push(sendarray[fbe]);
-    if (fbe < sendarray.length) {
-        fbe = fbe + 8
-    } else if (fbe >= sendarray.length) {
-
-    }
-
+  fb = 7;
+  nbe
 }
 
 function findbeatmiddle() {
-    middlearray.push(sendarray[fbm]);
-    if (fbm < sendarray.length) {
-        fbm = fbm + 4
-    } else if (fbm >= sendarray.length) {
-
-    }
+  fb = 3;
+  nbe=4
 }
 
 function findbeathard() {
-    hardarray.push(sendarray[fbh]);
-    if (fbh < sendarray.length) {
-        fbh = fbh + 2
-    } else if (fbh >= sendarray.length) {
-
-    }
+  fb = 1;
+  nbe=2
 }
 
-function MakeSendArrow(){
-  console.log("MSA is loding")
-if(easyarray[msa]=undefined){
- //makearrow();
-  msa ++
-  console.log(msa)
-  console.log("first if working")
-} else if (easyarray[msa]==sendarray[fbe]){
- //movearrow();
- console.log("last if working")
+function movement(){
+   up +=speed;
+  if (up  < 0) {
+        up=600
+        da=false
+      }
+  down +=speed;
+  if (down  < 0) {
+        down =600;
+        da=false
+      }
+  right +=speed;
+  if (right  < 0) {
+        right =600;
+        da=false
+      }
+  left +=speed;
+  if (left  < 0) {
+        left =600;
+        da=false
+      }
 }
-}
-
-
 
 console.log("dancearrow.js is alive...");
