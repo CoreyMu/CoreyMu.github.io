@@ -3,7 +3,7 @@ var right;
 var left;
 var up;
 var down;
-var   saia=Math.floor((Math.random() * 4)+1);
+var saia
 var nextbeat;
 var allbeats;
 var nbe = 8
@@ -101,6 +101,7 @@ function levels(x) {
     if (levelsarray[x] == undefined) {
         da = true
         sa = false
+        randomnumber();
         right = 600;
         left = 600;
         up = 600;
@@ -129,12 +130,14 @@ function findbeathard() {
 }
 
 function movement() {
+
   console.log(saia);
   if(saia==1){
     up += speed;
     if (up < 15) {
         up = 600
         da = false
+
     }
   }
   if(saia==2){
@@ -158,6 +161,12 @@ function movement() {
         da = false
     }
   }
+}
+
+function randomnumber(){
+var rN = Math.floor((Math.random() * 4)+1);
+console.log(rN);
+saia=rN
 }
 
 console.log("dancearrow.js is alive...");
