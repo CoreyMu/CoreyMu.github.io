@@ -115,7 +115,7 @@ function updatePlayback(song) {
 
     // set nowPlayingArtist’s inner HTML text to the artist of the song
     nowPlayingArtist.innerHTML = song.artist
-    // set nowPlayingImg’s src to the song’s image location
+        // set nowPlayingImg’s src to the song’s image location
     nowPlayingImg.src = song.imgLocation
 }
 

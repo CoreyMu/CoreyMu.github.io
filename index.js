@@ -72,7 +72,7 @@ function render(url) {
     screens.forEach(logMapElements);
     console.log(screens);
     if (url === "#playscreenplay") {
-      startgame();
+        startgame();
     }
 }
 
