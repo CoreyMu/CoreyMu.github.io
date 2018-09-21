@@ -38,6 +38,8 @@ function draw() {
     background(255);
     goal();
     lifebar();
+    fillbar()
+
     if (da) {
         arrows();
     }
@@ -51,10 +53,23 @@ function lifebar() {
     fill(255);
     rect(0, 0, windowWidth, 25);
 }
+function fillbar() {
+    fill(255,0,0);
+    rect(0, 0, windowWidth, 25);
+}
 
 function goal() {
     fill(255);
     rect(0, 25, windowWidth, 100);
+    if(right<25&&keyCode === RIGHT_ARROW||'d'){
+      console.log("right adding pionts")
+    }if(left<25&&keyCode === LEFT_ARROW||'a'){
+      console.log("left adding pionts")
+    }if(up<25&&keyCode === UP_ARROW||'w'){
+      console.log("up adding pionts")
+    }if(down<25&&keyCode === DOWN_ARROW||'s'){
+      console.log("down adding pionts")
+    }
 }
 
 function arrows() {
